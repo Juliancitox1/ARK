@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+#Start{
+    background: rgb(79, 10, 111);
+}
+.botoninicio{
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Closet{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filacloset{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.filaropa{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.imagen{
+    min-width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imagen img, .ropacompleta img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; 
+}
+
+.imagen img:hover, .ropacompleta img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.flecha{
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Ver-Todo{
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.armariocompleto{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    overflow: auto;
+}
+
+.ropacompleta{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.ropacompleta img{
+    width: 100%;
+}
+
+.cerrar{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.ropa-producto {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.contenido-ropa {
+    background: #adb7c4;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    padding: 40px;
+    position: relative;
+    box-shadow: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerrar-producto {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+}
+
+.detalle-producto {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.detalle-producto img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.informacion-producto {
+    width: 40%;
+}
+
+.precio {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.boton-wpp {
+    text-align: center;
+    padding: 12px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .detalle-producto {
+        flex-direction: column;
+    }
+
+    .detalle-producto img,
+    .informacion-producto {
+        width: 100%;
+    }
+}

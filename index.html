@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARK</title>
+    <link rel="stylesheet" href="StyleHome.css">
+</head>
+<body>
+    <!--Secciones de la pagina-->
+    <section id="Start">
+        <h1>ARK</h1>
+        <a href="#Closet" class="botoninicio">Armario</a>
+    </section>
+    
+    <section class="Closet" id="Closet">
+        <h2>NOX COLLECTION</h2>
+
+        <div class="filacloset">
+            <button class="flecha-izquierda">&#10094</button>
+            
+            <div class="filaropa" id="filaropa">
+                <div class="imagen"><img src="/Images/Imagen1.jpeg" data-id="1"></div>
+                <div class="imagen"><img src="/Images/Imagen2.jpeg" data-id="2"></div>
+                <div class="imagen"><img src="/Images/Imagen3.jpeg" data-id="3"></div>
+                <div class="imagen"><img src="/Images/Imagen4.jpeg" data-id="4"></div>
+                <div class="imagen"><img src="/Images/Imagen5.jpeg" data-id="5"></div>
+                <div class="imagen"><img src="/Images/Imagen6.avif" data-id="6"></div>
+                <div class="imagen"><img src="/Images/Imagen7.jpg" data-id="7"></div>
+            </div>
+
+            <button class="flecha-derecha">&#10095</button>
+        </div>
+
+        <button class="Ver-Todo" onclick="abrirArmario()">Ver Todo</button>
+
+        <div class="armariocompleto" id="armariocompleto">
+            <span class="cerrar" onclick="cerrarArmario()">&times</span>
+            <div class="ropacompleta">
+                <img src="/Images/Imagen1.jpeg" data-id="1">
+                <img src="/Images/Imagen2.jpeg" data-id="2">
+                <img src="/Images/Imagen3.jpeg" data-id="3">
+                <img src="/Images/Imagen4.jpeg" data-id="4">
+                <img src="/Images/Imagen5.jpeg" data-id="5">
+                <img src="/Images/Imagen6.avif" data-id="6">
+                <img src="/Images/Imagen7.jpg" data-id="7">
+            </div>
+        </div>
+
+        <div class="ropa-producto" id="ropaProducto">
+        <div class="contenido-ropa">
+            <span class="cerrar-producto" id="cerrarProducto">&times;</span>
+            <div class="detalle-producto">
+                <img id="imagenRopa" src="" alt="Producto">
+                <div class="informacion-producto">
+                    <h3 id="tituloRopa">Nombre</h3>
+                    <p id="descripcionRopa">Descripcion</p>
+                    <p class="precio" id="precioRopa">$Precio</p>
+                    <a id="linkWhatsapp" href="#" target="_blank" class="boton-wpp">Solicitar Compra</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    
+    
+    <script src="FuntionalityHome.js"></script>
+</body>
+</html>
