@@ -7,14 +7,20 @@
     <link rel="stylesheet" href="StyleHome.css">
 </head>
 <body>
-    <!--Secciones de la pagina-->
+    <!--Seccion 1: Inicio-->
     <section id="Start">
         <h1>ARK</h1>
         <a href="#Closet" class="botoninicio">Armario</a>
     </section>
     
+    <!--Seccion 2: Tienda-->
     <section class="Closet" id="Closet">
         <h2>NOX COLLECTION</h2>
+
+        <div class="top-botones">
+            <a href="#InfoFinal" class="boton-superior">Nosotros</a>
+            <a href="#InfoFinal" class="boton-superior">Contactanos</a>
+        </div>
 
         <div class="filacloset">
             <button class="flecha-izquierda">&#10094</button>
@@ -56,14 +62,36 @@
                     <h3 id="tituloRopa">Nombre</h3>
                     <p id="descripcionRopa">Descripcion</p>
                     <p class="precio" id="precioRopa">$Precio</p>
+
+                    <div class="selector-colores" id="selectorColores">
+                        <p class="texto-color">Color:</p>
+                        <div class="opciones-colores" id="opcionesColores"></div>
+                    </div>
+
                     <a id="linkWhatsapp" href="#" target="_blank" class="boton-wpp">Solicitar Compra</a>
                 </div>
             </div>
         </div>
     </div>
     </section>
-    
-    
+   
+    <!--Seccion 3: Final-->
+    <section class="InfoFinal" id="InfoFinal">
+        <div class="contenido-infofinal">
+            <div class="bloque-info">
+                <h2>Nosotros</h2>
+                <p>
+                    Aquí irá la descripción de nosotros.
+                </p>
+            </div>
+
+            <div class="bloque-info">
+                <h2>Contactanos</h2>
+                <p>+57 300 000 0000</p>
+                <p>+57 300 000 0000</p>
+            </div>
+        </div>
+    </section>
     
     <script src="FuntionalityHome.js"></script>
 </body>
