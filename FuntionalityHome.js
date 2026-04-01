@@ -53,131 +53,169 @@ const productos = {
         descripcion: "Descripción del producto 1",
         precio: "$100.000",
         colores: {
-            Negro: {
-                colorBoton: "#000000",
-                imagen: "/Images/Imagen1.jpeg"
+            "Blanco Morado": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #6d28d9 50%)",
+                imagen: "/Images/D1_BlancoMorado.png"
             },
-            Blanco: {
-                colorBoton: "#ffffff",
-                imagen: "/Images/Imagen1-Blanco.jpeg"
+            "Blanco Negro": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #111111 50%)",
+                imagen: "/Images/D1_BlancoNegro.png"
             },
-            Rojo: {
-                colorBoton: "#ff0000",
-                imagen: "/Images/Imagen1-Rojo.jpeg"
+            "Negro Blanco": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #f5f1e8 50%)",
+                imagen: "/Images/D1_NegroBlanco.png"
+            },
+            "Negro Morado": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #6d28d9 50%)",
+                imagen: "/Images/D1_NegroMorado.png"
+            },
+            "Rojo Negro": {
+                colorBoton: "linear-gradient(135deg, #dc2626 50%, #111111 50%)",
+                imagen: "/Images/D1_RojoNegro.png"
             }
         }
     },
+
     2: {
         nombre: "Producto 2",
         descripcion: "Descripción del producto 2",
         precio: "$120.000",
         colores: {
-            Negro: {
-                colorBoton: "#000000",
-                imagen: "/Images/Imagen1.jpeg"
+            "Blanco Morado": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #6d28d9 50%)",
+                imagen: "/Images/D2_BlancoMorado.png"
             },
-            Blanco: {
-                colorBoton: "#ffffff",
-                imagen: "/Images/Imagen1-Blanco.jpeg"
+            "Blanco Negro": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #111111 50%)",
+                imagen: "/Images/D2_BlancoNegro.png"
             },
-            Rojo: {
-                colorBoton: "#ff0000",
-                imagen: "/Images/Imagen1-Rojo.jpeg"
+            "Negro Blanco": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #f5f1e8 50%)",
+                imagen: "/Images/D2_NegroBlanco.png"
+            },
+            "Negro Morado": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #6d28d9 50%)",
+                imagen: "/Images/D2_NegroMorado.png"
             }
         }
     },
+
     3: {
         nombre: "Producto 3",
         descripcion: "Descripción del producto 3",
         precio: "$90.000",
         colores: {
-            Negro: {
-                colorBoton: "#000000",
-                imagen: "/Images/Imagen1.jpeg"
+            "Blanco Morado": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #6d28d9 50%)",
+                imagen: "/Images/D3_BlancoMorado.png"
             },
-            Blanco: {
-                colorBoton: "#ffffff",
-                imagen: "/Images/Imagen1-Blanco.jpeg"
+            "Blanco Negro": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #111111 50%)",
+                imagen: "/Images/D3_BlancoNegro.png"
             },
-            Rojo: {
-                colorBoton: "#ff0000",
-                imagen: "/Images/Imagen1-Rojo.jpeg"
+            "Negro Blanco": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #f5f1e8 50%)",
+                imagen: "/Images/D3_NegroBlanco.png"
+            },
+            "Negro Morado": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #6d28d9 50%)",
+                imagen: "/Images/D3_NegroMorado.png"
             }
         }
     },
+
     4: {
         nombre: "Producto 4",
         descripcion: "Descripción del producto 4",
         precio: "$150.000",
         colores: {
-            Negro: {
-                colorBoton: "#000000",
-                imagen: "/Images/Imagen1.jpeg"
+            "Blanco Morado": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #6d28d9 50%)",
+                imagen: "/Images/D4_BlancoMorado.png"
             },
-            Blanco: {
-                colorBoton: "#ffffff",
-                imagen: "/Images/Imagen1-Blanco.jpeg"
+            "Blanco Negro": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #111111 50%)",
+                imagen: "/Images/D4_BlancoNegro.png"
             },
-            Rojo: {
-                colorBoton: "#ff0000",
-                imagen: "/Images/Imagen1-Rojo.jpeg"
+            "Negro Blanco": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #f5f1e8 50%)",
+                imagen: "/Images/D4_NegroBlanco.png"
+            },
+            "Negro Morado": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #6d28d9 50%)",
+                imagen: "/Images/D4_NegroMorado.png"
             }
         }
     },
+
     5: {
         nombre: "Producto 5",
         descripcion: "Descripción del producto 5",
         precio: "$80.000",
         colores: {
-            Negro: {
-                colorBoton: "#000000",
-                imagen: "/Images/Imagen1.jpeg"
+            "Blanco Morado": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #6d28d9 50%)",
+                imagen: "/Images/D5_BlancoMorado.png"
             },
-            Blanco: {
-                colorBoton: "#ffffff",
-                imagen: "/Images/Imagen1-Blanco.jpeg"
+            "Blanco Negro": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #111111 50%)",
+                imagen: "/Images/D5_BlancoNegro.png"
             },
-            Rojo: {
-                colorBoton: "#ff0000",
-                imagen: "/Images/Imagen1-Rojo.jpeg"
+            "Negro Blanco": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #f5f1e8 50%)",
+                imagen: "/Images/D5_NegroBlanco.png"
+            },
+            "Negro Morado": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #6d28d9 50%)",
+                imagen: "/Images/D5_NegroMorado.png"
             }
         }
     },
+
     6: {
         nombre: "Producto 6",
         descripcion: "Descripción del producto 6",
         precio: "$200.000",
         colores: {
-            Negro: {
-                colorBoton: "#000000",
-                imagen: "/Images/Imagen1.jpeg"
+            "Blanco Morado": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #6d28d9 50%)",
+                imagen: "/Images/D6_BlancoMorado.png"
             },
-            Blanco: {
-                colorBoton: "#ffffff",
-                imagen: "/Images/Imagen1-Blanco.jpeg"
+            "Blanco Negro": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #111111 50%)",
+                imagen: "/Images/D6_BlancoNegro.png"
             },
-            Rojo: {
-                colorBoton: "#ff0000",
-                imagen: "/Images/Imagen1-Rojo.jpeg"
+            "Negro Blanco": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #f5f1e8 50%)",
+                imagen: "/Images/D6_NegroBlanco.png"
+            },
+            "Negro Morado": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #6d28d9 50%)",
+                imagen: "/Images/D6_NegroMorado.png"
             }
         }
     },
+
     7: {
         nombre: "Producto 7",
         descripcion: "Descripción del producto 7",
         precio: "$110.000",
         colores: {
-            Negro: {
-                colorBoton: "#000000",
-                imagen: "/Images/Imagen1.jpeg"
+            "Blanco Morado": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #6d28d9 50%)",
+                imagen: "/Images/D7_BlancoMorado.png"
             },
-            Blanco: {
-                colorBoton: "#ffffff",
-                imagen: "/Images/Imagen1-Blanco.jpeg"
+            "Blanco Negro": {
+                colorBoton: "linear-gradient(135deg, #f5f1e8 50%, #111111 50%)",
+                imagen: "/Images/D7_BlancoNegro.png"
             },
-            Rojo: {
-                colorBoton: "#ff0000",
-                imagen: "/Images/Imagen1-Rojo.jpeg"
+            "Negro Blanco": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #f5f1e8 50%)",
+                imagen: "/Images/D7_NegroBlanco.png"
+            },
+            "Negro Morado": {
+                colorBoton: "linear-gradient(135deg, #111111 50%, #6d28d9 50%)",
+                imagen: "/Images/D7_NegroMorado.png"
             }
         }
     }
@@ -225,7 +263,7 @@ const renderizarColores = (id) => {
     coloresDisponibles.forEach(color => {
         const boton = document.createElement("button");
         boton.classList.add("boton-color");
-        boton.style.backgroundColor = producto.colores[color].colorBoton;
+        boton.style.background = producto.colores[color].colorBoton;
         boton.setAttribute("aria-label", color);
         boton.title = color;
 
